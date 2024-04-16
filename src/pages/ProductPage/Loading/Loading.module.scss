@@ -1,0 +1,19 @@
+.imgBox {
+  border-radius: 20px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  box-shadow: inset 3px 3px 6px #EEE5E9;
+  border: 3px solid #EEE5E9;
+  margin-bottom: 40px;
+  animation: fade .8s linear infinite alternate;
+}
+
+@keyframes fade {
+  0% {
+    background: transparent linear-gradient(90deg, #6600FF 0%, #00CC99 100%) 0% 0% no-repeat padding-box;
+  }
+
+  100% {
+    background: transparent linear-gradient(90deg, #3700ff 0%, #00cc74 100%) 0% 0% no-repeat padding-box;
+  }
+}

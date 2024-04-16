@@ -1,0 +1,25 @@
+.footer {
+  padding: 40px 0 40px 0;
+  background-color: #FCEFF9;
+  border-radius: 50px 50px 0 0;
+
+  .content {
+    display: flex;
+    align-items: center;
+    color: #080708;
+    margin-bottom: 20px;
+    gap: 6px;
+    font-size: 18px;
+
+    .mail {
+      color: #080708;
+    }
+
+  }
+
+  .copy {
+    color: #08070892;
+    font-size: 18px;
+  }
+
+}

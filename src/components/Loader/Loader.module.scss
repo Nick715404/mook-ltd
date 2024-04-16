@@ -1,0 +1,42 @@
+.product {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  box-shadow: inset 3px 3px 6px #EEE5E9;
+  padding: 14px;
+
+  .imgBox {
+    max-width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    height: 20px;
+  }
+
+}
+
+.loading {
+
+  .imgBox, .titleBox, .title {
+    animation: fade .8s linear infinite alternate;
+  }
+
+}
+
+@keyframes fade {
+  0% {
+    background: transparent linear-gradient(90deg, #6600FF 0%, #00CC99 100%) 0% 0% no-repeat padding-box;
+  }
+
+  100% {
+    background: transparent linear-gradient(90deg, #3700ff 0%, #00cc74 100%) 0% 0% no-repeat padding-box;
+  }
+}

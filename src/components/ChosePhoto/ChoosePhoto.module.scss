@@ -1,0 +1,12 @@
+.btn {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: inset 3px 3px 6px #EEE5E9;
+  border-radius: 20px;
+  background-color: transparent;
+  width: 48%;
+  aspect-ratio: 1 / 1;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}

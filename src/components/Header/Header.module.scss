@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FCEFF9;
+  border-radius: 0 0 50px 50px;
+  z-index: 2;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0;
+
+    .logo {
+      font-weight: 900;
+      font-size: clamp(35px, 4vw, 45px);
+    }
+
+  }
+
+}
